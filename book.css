@@ -1,0 +1,78 @@
+.container-fluid{
+    column-count: 2;
+    column-gap:  40px;
+    height: 85vh;
+}
+.userinfo{
+    display:flex;
+    flex-direction: column;
+    height:80vh;
+    flex: 1;
+    margin-left: 30px;
+    animation-name: example1;
+    animation-duration: 2s;
+    position: relative;
+    animation-timing-function: ease-in;
+}
+
+body{
+    font-family: Roboto;
+}
+.facilities{
+    display:flex;
+    flex-direction: column;
+    height: 90vh;
+    flex: 2;
+    animation-name:example;
+    animation-duration: 2s;
+    position: relative;
+    animation-timing-function: ease-in;
+    border-radius: 10px;
+}
+.box{
+    margin: 5px 100px 5px 24px;
+    background-color: #38040E;
+    border:#800E13 solid;
+    border-radius: 12px;
+    border-width: 1px;
+    padding-left: 12px;
+    color: gray;
+    font-size:large;
+    
+}
+body{
+    background: linear-gradient(180deg, #270508 0%, #010000 100%);
+}
+.btn{
+    margin-left: 700px;
+   margin-bottom: 15%;
+    
+}
+.check{
+    padding-left: 20px;
+    color:gray;
+    font-size: larger;
+}
+.check2{
+    margin-left: 40em;
+}
+h1{
+    text-align: center;
+    font-weight: 800;
+    color: grey;
+    margin-bottom: 20px;
+}
+@keyframes example {
+    0%{left:90vh; }
+    {left:67.5vh;}
+    {left: 45vh;}
+    {left: 22.5vh;}
+    100%{left:0vh;}  
+}
+@keyframes example1 {
+    0%{right:90vh; }
+    {right:67.5vh;}
+    {right:45vh;}
+    {right:22.5vh;}
+    100%{right:0vh;}  
+}
