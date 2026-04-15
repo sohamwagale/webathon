@@ -49,7 +49,7 @@ export default function Recommendations() {
 
   const currentList = tab === 'top' ? topMatches : dailySuggestions;
 
-  if (loading) return <div className="loading-screen"><div className="brand">Milan Setu</div><div className="spinner"></div></div>;
+  if (loading) return <div className="loading-screen"><div className="brand">Matchify</div><div className="spinner"></div></div>;
 
   return (
     <>

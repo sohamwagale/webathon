@@ -29,7 +29,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-inner">
-        <Link to="/" className="navbar-brand">Milan Setu</Link>
+        <Link to="/" className="navbar-brand">Matchify</Link>
 
         <button className="navbar-mobile-toggle" onClick={() => setMenuOpen(!menuOpen)}>
           <span className="material-symbols-outlined">{menuOpen ? 'close' : 'menu'}</span>

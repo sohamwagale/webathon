@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="footer-grid">
         <div className="footer-brand-col">
-          <span className="footer-logo">Milan Setu</span>
+          <span className="footer-logo">Matchify</span>
           <p className="footer-desc">
             Defining the next generation of matrimonial connections through editorial
             elegance and deep trust.
@@ -44,7 +44,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2024 Milan Setu. All rights reserved.</p>
+        <p>© 2024 Matchify. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -85,7 +85,7 @@ export default function ProfileDetail() {
     } catch (err) { setMsg(err.message); setTimeout(() => setMsg(''), 3000); }
   };
 
-  if (loading) return <div className="loading-screen"><div className="brand">Milan Setu</div><div className="spinner"></div></div>;
+  if (loading) return <div className="loading-screen"><div className="brand">Matchify</div><div className="spinner"></div></div>;
   if (!profile) return (
     <main className="profile-detail-page"><div className="profile-empty"><h2>Profile not found</h2><p>This profile may not exist or may be unavailable.</p></div></main>
   );

@@ -53,7 +53,7 @@ export default function Verification() {
   const currentStatus = status?.status || user?.verification?.status || 'unverified';
   const cfg = statusConfig[currentStatus] || statusConfig.unverified;
 
-  if (loading) return <div className="loading-screen"><div className="brand">Milan Setu</div><div className="spinner"></div></div>;
+  if (loading) return <div className="loading-screen"><div className="brand">Matchify</div><div className="spinner"></div></div>;
 
   return (
     <>
